@@ -1,12 +1,13 @@
-function compareTriplets(a,b){
-    let alicescore=0;
-    bobscore=0;
-
-    for(let i=0;i<)
-
-
-
-
-
-
+function printPattern(rows) {
+    for (let i = 1; i <= rows; i++) {
+        let pattern = '';
+        for (let j = 1; j <= i; j++) {
+            pattern += '* ';
+        }
+        console.log(pattern);
+    }
 }
+
+printPattern(3);
+
+
